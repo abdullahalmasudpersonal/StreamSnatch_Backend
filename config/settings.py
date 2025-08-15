@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-tti$nvkf*d-#b-xhojqe$f_-l95$&-ciy%m7br*6u&_i@j%e@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'streamsnatch-backend.onrender.com',
+]
+
 
 # Application definition
 
